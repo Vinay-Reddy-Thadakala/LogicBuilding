@@ -1,0 +1,7 @@
+D:\LogicBuilding\ArraysAndStrings\bin\Debug\ArraysAndStrings.exe.config
+D:\LogicBuilding\ArraysAndStrings\bin\Debug\ArraysAndStrings.exe
+D:\LogicBuilding\ArraysAndStrings\bin\Debug\ArraysAndStrings.pdb
+D:\LogicBuilding\ArraysAndStrings\obj\Debug\ArraysAndStrings.csproj.AssemblyReference.cache
+D:\LogicBuilding\ArraysAndStrings\obj\Debug\ArraysAndStrings.csproj.CoreCompileInputs.cache
+D:\LogicBuilding\ArraysAndStrings\obj\Debug\ArraysAndStrings.exe
+D:\LogicBuilding\ArraysAndStrings\obj\Debug\ArraysAndStrings.pdb

@@ -1,0 +1,7 @@
+D:\LogicBuilding\ConditionalStatementsAndLoops\bin\Debug\ConditionalStatementsAndLoops.exe.config
+D:\LogicBuilding\ConditionalStatementsAndLoops\bin\Debug\ConditionalStatementsAndLoops.exe
+D:\LogicBuilding\ConditionalStatementsAndLoops\bin\Debug\ConditionalStatementsAndLoops.pdb
+D:\LogicBuilding\ConditionalStatementsAndLoops\obj\Debug\ConditionalStatementsAndLoops.csproj.AssemblyReference.cache
+D:\LogicBuilding\ConditionalStatementsAndLoops\obj\Debug\ConditionalStatementsAndLoops.csproj.CoreCompileInputs.cache
+D:\LogicBuilding\ConditionalStatementsAndLoops\obj\Debug\ConditionalStatementsAndLoops.exe
+D:\LogicBuilding\ConditionalStatementsAndLoops\obj\Debug\ConditionalStatementsAndLoops.pdb

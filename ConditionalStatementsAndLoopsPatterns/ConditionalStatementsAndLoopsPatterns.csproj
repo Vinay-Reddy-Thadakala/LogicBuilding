@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{198FAD75-1F36-4B19-B14F-87EB6DA08556}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConditionalStatementsAndLoopsPatterns</RootNamespace>
+    <AssemblyName>ConditionalStatementsAndLoopsPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ConditionalStatementsAndLoopsPatterns.DiamondAlphabetPattern</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DiamondAlphabetPattern.cs" />
+    <Compile Include="DiamondNumberPattern.cs" />
+    <Compile Include="DiamondStarPattern.cs" />
+    <Compile Include="HallowDiamondStarPattern.cs" />
+    <Compile Include="HallowLeftTriangleStarPattern.cs" />
+    <Compile Include="HallowPyramidStarPattern.cs" />
+    <Compile Include="HallowRightTriangleStarPattern.cs" />
+    <Compile Include="HallowSquareStarPattern.cs" />
+    <Compile Include="InvertedLeftTriangleStarPattern.cs" />
+    <Compile Include="InvertedPyramidStarPattern.cs" />
+    <Compile Include="InvertedRightTriangleNumberPatternAsc.cs" />
+    <Compile Include="InvertedRightTriangleNumberPatternDesc.cs" />
+    <Compile Include="InvertedRightTriangleRepeatNumberPatternAsc.cs" />
+    <Compile Include="InvertedRightTriangleRepeatNumberPatternDesc.cs" />
+    <Compile Include="InvertedRightTriangleStarPattern.cs" />
+    <Compile Include="LeftTiltedParallelogramStarPattern.cs" />
+    <Compile Include="LeftTriangleAlphabetPattern.cs" />
+    <Compile Include="LeftTriangleNumberPatternAsc.cs" />
+    <Compile Include="LeftTriangleNumberPatternDesc.cs" />
+    <Compile Include="LeftTriangleRepeatAlphabetPattern.cs" />
+    <Compile Include="LeftTriangleRepeatNumberPatternDesc.cs" />
+    <Compile Include="LeftTriangleRepeatNumberPatternAsc.cs" />
+    <Compile Include="LeftTriangleStarPattern.cs" />
+    <Compile Include="PyramidAlphabetPattern.cs" />
+    <Compile Include="PyramidNumberPatternAsc.cs" />
+    <Compile Include="PyramidNumberPatternDesc.cs" />
+    <Compile Include="PyramidRepeatAlphabetPattern.cs" />
+    <Compile Include="PyramidRepeatNumberPatternAsc.cs" />
+    <Compile Include="PyramidRepeatNumberPatternDesc.cs" />
+    <Compile Include="PyramidStarPattern.cs" />
+    <Compile Include="RightTiltedParallelogramStarPattern.cs" />
+    <Compile Include="RightTraingleRepeatNumberPatternAsc.cs" />
+    <Compile Include="RightTriangleAlphabetPattern.cs" />
+    <Compile Include="RightTriangleNumberPatternAsc.cs" />
+    <Compile Include="RightTriangleNumberPatternDesc.cs" />
+    <Compile Include="RightTraingleRepeatNumberPatternDesc.cs" />
+    <Compile Include="RightTriangleRepeatAlphabetPattern.cs" />
+    <Compile Include="RightTriangleStarPattern.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareNumberPattern.cs" />
+    <Compile Include="SquareRepeatNumberPattern.cs" />
+    <Compile Include="SquareStarPattern.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

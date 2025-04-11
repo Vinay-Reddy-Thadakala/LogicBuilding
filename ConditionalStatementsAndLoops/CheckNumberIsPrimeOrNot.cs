@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConditionalStatementsAndLoops
+{
+    class CheckNumberIsPrimeOrNot
+    {
+        static void Main(string[] args)
+        {
+            int n, count = 0;
+
+            Console.Write("Enter any number: ");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= n; i++)
+            {
+                if(n % i == 0)
+                {
+                    count++;
+                }
+            }
+            
+            if (count == 2)
+            {
+                Console.WriteLine($"{n} is a prime number.");
+            }
+            else
+            {
+                Console.WriteLine($"{n} is not a prime number.");
+            }
+        }
+    }
+}

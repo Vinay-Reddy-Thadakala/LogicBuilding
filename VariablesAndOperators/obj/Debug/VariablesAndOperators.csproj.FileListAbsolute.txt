@@ -1,0 +1,7 @@
+D:\LogicBuilding\VariablesAndOperators\bin\Debug\VariablesAndOperators.exe.config
+D:\LogicBuilding\VariablesAndOperators\bin\Debug\VariablesAndOperators.exe
+D:\LogicBuilding\VariablesAndOperators\bin\Debug\VariablesAndOperators.pdb
+D:\LogicBuilding\VariablesAndOperators\obj\Debug\VariablesAndOperators.csproj.AssemblyReference.cache
+D:\LogicBuilding\VariablesAndOperators\obj\Debug\VariablesAndOperators.csproj.CoreCompileInputs.cache
+D:\LogicBuilding\VariablesAndOperators\obj\Debug\VariablesAndOperators.exe
+D:\LogicBuilding\VariablesAndOperators\obj\Debug\VariablesAndOperators.pdb
